@@ -38,19 +38,19 @@
 
 
 ///////7\
-// const item = document.querySelectorAll('li')
-
-// item.forEach((element) =>{
-//     `${data-test-id}  ${text}`
-// })
-
+// let ul = document.querySelector('ul')
+// ul.innerHTML = ""
+// ul.innerHTML = `
+//     <li data-test-id="1">1 green</li>
+//     <li data-test-id="2">2 red</li>
+//     <li data-test-id="3">3 yellow</li>
+//     <li data-test-id="4">4 blue</li>
+//     <li data-test-id="5">5 white</li>
+// `
 
 // // task8
-let label = document.querySelectorAll('label')
-label[1].innerHTML = ""
-label[1].innerHTML = `
-    <input type="password" placeholder="You were Hacked">
-`    
-
-
-
+// let label = document.querySelectorAll('label')
+// label[1].innerHTML = ""
+// label[1].innerHTML = `
+//     <input type="password" placeholder="You were Hacked">
+// `    
